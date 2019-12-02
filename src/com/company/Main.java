@@ -8,25 +8,24 @@ public class Main {
         //predefined standard input object
         Scanner sc = new Scanner(System.in);
         //name code
-        String name = sc.nextLine();
         System.out.println("enter your name: ");
+        String name = sc.nextLine();
         System.out.println("name: "+ name);
         // gender code
-        String gender = sc.nextLine();
         System.out.println(" enter you gender here: ");
+        String gender = sc.nextLine();
         System.out.println("gender: "+ gender);
 
-        System.out.println("enter you grades and after you do type end and enter to emd the line of code");
 
-        System.out.println("enter your name: ");
-        String name = sc.nextLine();
-        System.out.println("name: " + name);
+        System.out.println("enter your console: ");
+        String console = sc.nextLine();
+        System.out.println("name: " + console);
         // gender code
-        System.out.println(" enter you gender here: ");
-        String gender = sc.nextLine();
-        System.out.println("gender: " + gender);
+        System.out.println(" enter your favorit game here: ");
+        String video = sc.nextLine();
+        System.out.println("video: " + video);
 
-
+        System.out.println("enter you grades and after you do type end and enter to emd the line of code");
         int sum = 0, count = 0;
 
 
