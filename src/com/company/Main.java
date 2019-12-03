@@ -19,13 +19,23 @@ public class Main {
 
         System.out.println("enter your console: ");
         String console = sc.nextLine();
-        System.out.println("name: " + console);
-        // gender code
+        System.out.println("console name: " + console);
+        // game code
         System.out.println(" enter your favorite game here: ");
         String video = sc.nextLine();
         System.out.println("video: " + video);
 
-        System.out.println("enter you grades and after you do type end and enter to emd the line of code");
+        //pet name code
+        System.out.println("what kind of pet do you have:");
+        String typeofpet = sc.nextLine();
+        System.out.println("pet type: " +typeofpet);
+        System.out.println("enter your pet name:");
+        String pet = sc.nextLine();
+        System.out.println("pet name: " + pet);
+
+
+        //grades/exam code
+        System.out.println("enter you grades and after you do type end and enter to end the line of code");
         int sum = 0, count = 0;
 
 
@@ -44,7 +54,7 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
-        System.out.println("Input marks scored by you:");
+        System.out.println("Enter your exam score:");
 
         marksObtained = input.nextInt();
 
@@ -52,7 +62,8 @@ public class Main {
             System.out.println("You passed the exam.");
         } else {
             System.out.println("Unfortunately, you failed to pass the exam.");
-
         }
+
+
     }
 }
