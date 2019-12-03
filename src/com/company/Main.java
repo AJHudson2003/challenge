@@ -21,7 +21,7 @@ public class Main {
         String console = sc.nextLine();
         System.out.println("name: " + console);
         // gender code
-        System.out.println(" enter your favorit game here: ");
+        System.out.println(" enter your favorite game here: ");
         String video = sc.nextLine();
         System.out.println("video: " + video);
 
