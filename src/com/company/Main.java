@@ -1,4 +1,5 @@
 package com.company;
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -33,6 +34,10 @@ public class Main {
         String pet = sc.nextLine();
         System.out.println("pet name: " + pet);
 
+        //music code
+        System.out.println("what type of music do you like?");
+        String music = sc.nextLine();
+        System.out.println("type of music:" + music);
 
         //grades/exam code
         System.out.println("enter you grades and after you do type end and enter to end the line of code");
