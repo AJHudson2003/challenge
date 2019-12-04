@@ -51,6 +51,14 @@ public class Main {
         String type = sc.nextLine();
         System.out.println("Your type of music:" + type);
 
+        //school question
+        System.out.println("Do you like school?");
+        String school = sc.nextLine();
+        System.out.println("Answer:" + school);
+        System.out.println("What is your favorite subject");
+        String subject = sc.nextLine();
+        System.out.println("answer:" + subject);
+
         //grades/exam code
         System.out.println("enter you grades and after you do type end and enter to end the line of code");
         int sum = 0, count = 0;
