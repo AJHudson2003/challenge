@@ -45,10 +45,10 @@ public class Main {
         
         //music type code
         System.out.println.("do you like music");
-        String answer = sc.nextline();
+        String answer = sc.nextLine();
         System.out.println("your answer:" + answer);
         System.out.pintln("what type of music?");
-        String type = sc.nextline();
+        String type = sc.nextLine();
         System.out.println("Your type of music:" + type);
 
 
