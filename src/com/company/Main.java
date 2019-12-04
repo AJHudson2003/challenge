@@ -14,6 +14,7 @@ public class Main {
         Also this all the code down below that is working
         i have added new code every day
         and i really would like you to try it.
+        thank you and have fun
         */
         Scanner sc = new Scanner(System.in);
         //name code
@@ -43,7 +44,7 @@ public class Main {
         System.out.println("pet name: " + pet);
         
         //music type code
-        System.out.println.("do you like music);
+        System.out.println.("do you like music");
         String answer = sc.nextline();
         System.out.println("your answer:" + answer);
         System.out.pintln("what type of music?");
