@@ -1,5 +1,4 @@
 package com.company;
-import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -45,17 +44,12 @@ public class Main {
         System.out.println("pet name: " + pet);
         
         //music type code
-        System.out.println.("do you like music");
+        System.out.println("do you like music");
         String answer = sc.nextLine();
         System.out.println("your answer:" + answer);
-        System.out.pintln("what type of music?");
+        System.out.println("what type of music?");
         String type = sc.nextLine();
         System.out.println("Your type of music:" + type);
-
-        //music code
-        System.out.println("what type of music do you like?");
-        String music = sc.nextLine();
-        System.out.println("type of music:" + music);
 
         //grades/exam code
         System.out.println("enter you grades and after you do type end and enter to end the line of code");
