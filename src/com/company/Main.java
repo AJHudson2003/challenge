@@ -18,10 +18,13 @@ public class Main {
         */
         Scanner sc = new Scanner(System.in);
         //name code
-        System.out.println("enter your name: ");
-        String name = sc.nextLine();
-        System.out.println("name: "+ name);
-        // gender code
+    ;
+        System.out.println("Enter your first name:");
+        String f = sc.nextLine();
+        System.out.println("Enter your last name:");
+        String l = sc.nextLine();
+        System.out.println("Your name is: " + f + l);
+        //gender code
         System.out.println(" enter you gender here: ");
         String gender = sc.nextLine();
         System.out.println("gender: "+ gender);
@@ -88,6 +91,8 @@ public class Main {
         } else {
             System.out.println("Unfortunately, you failed to pass the exam.");
         }
+
+
 
 
     }
