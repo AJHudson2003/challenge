@@ -18,7 +18,7 @@ public class Main {
         */
         Scanner sc = new Scanner(System.in);
         //name code
-    ;
+
         System.out.println("Enter your first name:");
         String f = sc.nextLine();
         System.out.println("Enter your last name:");
@@ -91,9 +91,22 @@ public class Main {
         } else {
             System.out.println("Unfortunately, you failed to pass the exam.");
         }
+        //are you able to vote
+        System.out.println("Enter your age");
+        Scanner s1=new Scanner(System.in);
+        int age=s1.nextInt();
+        if ( age >= 18 ){
+            System.out.println( "Your age is 18+." );
+            System.out.println( "Eligible to vote" );
+        }
 
+        else{
+            System.out.println( "You are not yet 18." );
+            System.out.println( "not eligible to vote" );
+        }
+    }
 
 
 
     }
-}
+
