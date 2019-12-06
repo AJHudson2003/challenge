@@ -23,7 +23,7 @@ public class Main {
         String f = sc.nextLine();
         System.out.println("Enter your last name:");
         String l = sc.nextLine();
-        System.out.println("Your name is: " + f + l);
+        System.out.println("Your name is: " + f + " " + l);
         //gender code
         System.out.println(" enter you gender here: ");
         String gender = sc.nextLine();
@@ -38,14 +38,8 @@ public class Main {
         String video = sc.nextLine();
         System.out.println("video: " + video);
 
-        //pet name code
-        System.out.println("what kind of pet do you have:");
-        String typeofpet = sc.nextLine();
-        System.out.println("pet type: " +typeofpet);
-        System.out.println("enter your pet name:");
-        String pet = sc.nextLine();
-        System.out.println("pet name: " + pet);
-        
+       //password code
+
         //music type code
         System.out.println("do you like music");
         String answer = sc.nextLine();
@@ -62,8 +56,19 @@ public class Main {
         String subject = sc.nextLine();
         System.out.println("answer:" + subject);
 
+        Scanner input = new Scanner(System.in);
+
+        System.out.println("Enter password: ");
+        String userinput = input.nextLine();
+        if (userinput == "password"){
+            System.out.println("Correct!");
+        } else if (userinput != "1234"){
+            System.out.println("Wrong!");
+        }
+
+
         //grades/exam code
-        System.out.println("enter you grades and after you do type end and enter to end the line of code");
+        System.out.println("enter your percentage grades and after you are done type end and it will end the line of code");
         int sum = 0, count = 0;
 
 
@@ -80,17 +85,21 @@ public class Main {
 
         passingMarks = 60;
 
-        Scanner input = new Scanner(System.in);
+
 
         System.out.println("Enter your exam score:");
 
         marksObtained = input.nextInt();
+
 
         if (marksObtained >= passingMarks) {
             System.out.println("You passed the exam.");
         } else {
             System.out.println("Unfortunately, you failed to pass the exam.");
         }
+
+
+
         //are you able to vote
         System.out.println("Enter your age");
         Scanner s1=new Scanner(System.in);
@@ -100,13 +109,15 @@ public class Main {
             System.out.println( "Eligible to vote" );
         }
 
-        else{
-            System.out.println( "You are not yet 18." );
-            System.out.println( "not eligible to vote" );
+        else {
+            System.out.println("You are not yet 18.");
+            System.out.println("not eligible to vote");
         }
+
+
+
+
+
     }
-
-
-
     }
 
