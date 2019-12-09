@@ -60,9 +60,10 @@ public class Main {
 
         System.out.println("Enter password: ");
         String userinput = input.nextLine();
-        if (userinput == "password"){
+        if (userinput != "Andrew"){
             System.out.println("Correct!");
-        } else if (userinput != "1234"){
+        }
+        else if (userinput == "1234"){
             System.out.println("Wrong!");
         }
 
