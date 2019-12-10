@@ -16,6 +16,7 @@ public class Main {
         and i really would like you to try it.
         thank you and have fun
         */
+
         Scanner sc = new Scanner(System.in);
         //name code
 
@@ -60,12 +61,13 @@ public class Main {
 
         System.out.println("Enter password: ");
         String userinput = input.nextLine();
-        if (userinput != "Andrew"){
+        if (userinput != "Andrew") {
             System.out.println("Correct!");
         }
-        else if (userinput == "1234"){
+        else if (userinput != "1234") {
             System.out.println("Wrong!");
         }
+
 
 
         //grades/exam code
