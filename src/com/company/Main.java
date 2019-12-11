@@ -136,10 +136,6 @@ public class Main {
             System.out.println("not eligible to vote");
         }
 
-
-
-
-
     }
     }
 
