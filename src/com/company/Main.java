@@ -1,4 +1,5 @@
 package com.company;
+import javax.swing.*;
 import java.util.Scanner;
 
 public class Main {
@@ -19,6 +20,7 @@ public class Main {
 
         Scanner sc = new Scanner(System.in);
         //name code
+        System.out.println(" welcome to my quiz I really hope that you wil like it and injoy the quiz that i have provided Bye! ");
 
         System.out.println("Enter your first name:");
         String f = sc.nextLine();
@@ -31,9 +33,25 @@ public class Main {
         System.out.println("gender: "+ gender);
 
         //game/console type code
-        System.out.println("enter your console: ");
+        System.out.println("Enter your console that you play");
         String console = sc.nextLine();
-        System.out.println("console name: " + console);
+        switch (console){
+            case "xbox":
+                System.out.println("Same dude we can play together" + console);
+                break;
+            case "PS4":
+                System.out.println("Oh thats sad we cant play together " + console);
+                break;
+            case "PC":
+                System.out.println("Oh cool i will get one soon maybe we can play later" + console);
+                break;
+            case "Switch":
+                System.out.println("oh thats really cool i wish i could have that but oh well." + console);
+                break;
+            case "no console":
+                System.out.println("oh that suck you should buy one, in my opinion buy a xbox or a pc but its your chose " + console);
+                break;
+        }
         // game code
         System.out.println(" enter your favorite game here: ");
         String video = sc.nextLine();
@@ -59,12 +77,13 @@ public class Main {
 
         Scanner input = new Scanner(System.in);
 
+        System.out.println("there are two options to this password question and that is password or 1234 ");
         System.out.println("Enter password: ");
         String userinput = input.nextLine();
-        if (userinput != "Andrew") {
+        if (userinput.equals ("password")) {
             System.out.println("Correct!");
         }
-        else if (userinput != "1234") {
+        else if (userinput.equals ("1234")) {
             System.out.println("Wrong!");
         }
 
