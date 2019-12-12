@@ -83,7 +83,7 @@ public class Main {
         if (userinput.equals ("password")) {
             System.out.println("Correct!");
         }
-        else if (userinput.equals ("1234")) {
+        else {
             System.out.println("Wrong!");
         }
 
