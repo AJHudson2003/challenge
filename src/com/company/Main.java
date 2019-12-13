@@ -17,7 +17,7 @@ public class Main {
         and i really would like you to try it.
         thank you and have fun
         */
-
+        Scanner input = new Scanner(System.in);
         Scanner sc = new Scanner(System.in);
         //name code
         System.out.println(" welcome to my quiz I really hope that you wil like it and injoy the quiz that i have provided Bye! ");
@@ -40,13 +40,13 @@ public class Main {
                 System.out.println("Same dude we can play together" + console);
                 break;
             case "PS4":
-                System.out.println("Oh thats sad we cant play together " + console);
+                System.out.println("Oh that's sad we cant play together " + console);
                 break;
             case "PC":
                 System.out.println("Oh cool i will get one soon maybe we can play later" + console);
                 break;
             case "Switch":
-                System.out.println("oh thats really cool i wish i could have that but oh well." + console);
+                System.out.println("oh that's really cool i wish i could have that but oh well." + console);
                 break;
             case "no console":
                 System.out.println("oh that suck you should buy one, in my opinion buy a xbox or a pc but its your chose " + console);
@@ -67,17 +67,23 @@ public class Main {
         String type = sc.nextLine();
         System.out.println("Your type of music:" + type);
 
-        //school question
-        System.out.println("Do you like school?");
-        String school = sc.nextLine();
-        System.out.println("Answer:" + school);
-        System.out.println("What is your favorite subject");
+        System.out.println("answer the question do you like school:");
+       System.out.println("do you like school?");
+       String school = sc.nextLine();
         String subject = sc.nextLine();
-        System.out.println("answer:" + subject);
+       if(school.equals("yes")){
+           System.out.println("answer:" + school);
+           System.out.println("what is your favorite subject?");
+           System.out.println("answer:" + subject);
+       }else{
+           System.out.println("ok good bye then!");
+        }
 
-        Scanner input = new Scanner(System.in);
 
-        System.out.println("there are two options to this password question and that is password or 1234 ");
+
+
+
+        System.out.println("Enter a password if you dare ");
         System.out.println("Enter password: ");
         String userinput = input.nextLine();
         if (userinput.equals ("password")) {
@@ -138,4 +144,3 @@ public class Main {
 
     }
     }
-
