@@ -9,9 +9,9 @@ public class Main {
         //predefined standard input object
         /*
        in this quiz you will have several questions that you have answer
-        I really aprricate you taking th time to do this quiz
+        I really appreciate you taking th time to do this quiz
         Also I am glad that you have answered all these questions
-        This is just some coed and i hope it helps with the quize
+        This is just some coed and i hope it helps with the quiz
         Also this all the code down below that is working
         i have added new code every day
         and i really would like you to try it.
