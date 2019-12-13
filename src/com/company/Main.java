@@ -28,9 +28,14 @@ public class Main {
         String l = sc.nextLine();
         System.out.println("Your name is: " + f + " " + l);
         //gender code
+
+        System.out.println("\n----------------------\n");
+
         System.out.println(" enter you gender here: ");
         String gender = sc.nextLine();
         System.out.println("gender: "+ gender);
+
+        System.out.println("\n----------------------\n");
 
         //game/console type code
         System.out.println("Enter your console that you play");
@@ -58,7 +63,7 @@ public class Main {
         System.out.println("video: " + video);
 
        //password code
-
+        System.out.println("\n----------------------\n");
         //music type code
         System.out.println("do you like music");
         String answer = sc.nextLine();
@@ -66,6 +71,8 @@ public class Main {
         System.out.println("what type of music?");
         String type = sc.nextLine();
         System.out.println("Your type of music:" + type);
+
+        System.out.println("\n----------------------\n");
 
         System.out.println("answer the question do you like school:");
        System.out.println("do you like school?");
@@ -80,7 +87,7 @@ public class Main {
         }
 
 
-
+        System.out.println("\n----------------------\n");
 
 
         System.out.println("Enter a password if you dare ");
@@ -94,7 +101,7 @@ public class Main {
         }
 
 
-
+        System.out.println("\n----------------------\n");
         //grades/exam code
         System.out.println("enter your percentage grades and after you are done type end and it will end the line of code");
         int sum = 0, count = 0;
@@ -126,7 +133,7 @@ public class Main {
             System.out.println("Unfortunately, you failed to pass the exam.");
         }
 
-
+        System.out.println("\n----------------------\n");
 
         //are you able to vote
         System.out.println("Enter your age");
