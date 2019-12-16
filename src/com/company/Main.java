@@ -21,7 +21,16 @@ public class Main {
         Scanner sc = new Scanner(System.in);
         //name code
 
-        System.out.println(" welcome to my quiz I really hope that you wil like it and injoy the quiz that i have provided Bye! ");
+        System.out.println(" welcome to my quiz I really hope that you wil like it and injoy the quiz that i have provided! ");
+
+        System.out.println("would you like to take this quiz");
+        System.out.println("Answer:");
+        String quiz = sc.nextLine();
+        if (quiz.equals("yes")){
+            System.out.println(" then lets start");
+
+
+
 
         System.out.println("Enter your first name:");
         String f = sc.nextLine();
@@ -166,8 +175,10 @@ public class Main {
         System.out.println("\n----------------------\n");
 
         System.out.println("thx for taking the quiz see you next time!");
-
-
+        }
+        else{
+            System.out.println("then good bye to you.");
+        }
 
     }
     }
