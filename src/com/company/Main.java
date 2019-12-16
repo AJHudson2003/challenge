@@ -20,6 +20,7 @@ public class Main {
         Scanner input = new Scanner(System.in);
         Scanner sc = new Scanner(System.in);
         //name code
+
         System.out.println(" welcome to my quiz I really hope that you wil like it and injoy the quiz that i have provided Bye! ");
 
         System.out.println("Enter your first name:");
@@ -42,19 +43,19 @@ public class Main {
         String console = sc.nextLine();
         switch (console){
             case "xbox":
-                System.out.println("Same dude we can play together" + console);
+                System.out.println("Same dude we can play together");
                 break;
-            case "PS4":
-                System.out.println("Oh that's sad we cant play together " + console);
+            case "ps4":
+                System.out.println("Oh that's sad we cant play together " );
                 break;
-            case "PC":
-                System.out.println("Oh cool i will get one soon maybe we can play later" + console);
+            case "pc":
+                System.out.println("Oh cool i will get one soon maybe we can play later" );
                 break;
-            case "Switch":
-                System.out.println("oh that's really cool i wish i could have that but oh well." + console);
+            case "switch":
+                System.out.println("oh that's really cool i wish i could have that but oh well." );
                 break;
             case "no console":
-                System.out.println("oh that suck you should buy one, in my opinion buy a xbox or a pc but its your chose " + console);
+                System.out.println("oh that suck you should buy one, in my opinion buy a xbox or a pc but its your chose " );
                 break;
         }
         // game code
@@ -82,16 +83,29 @@ public class Main {
            System.out.println("answer:" + school);
            System.out.println("what is your favorite subject?");
            System.out.println("answer:" + subject);
-       }else{
+       }else {
            System.out.println("ok good bye then!");
         }
+
+        System.out.println("\n----------------------\n");
+
+        System.out.println("Did you like my quiz so far");
+        System.out.println("Enter your answer: ");
+        String question = input.nextLine();
+        if (question.equals ("yes")) {
+            System.out.println("thanks for using my quiz!" + question);
+        }
+        else {
+            System.out.println("oh i wish you did, thx for taking it though!");
+        }
+
 
 
         System.out.println("\n----------------------\n");
 
 
         System.out.println("Enter a password if you dare ");
-        System.out.println("Enter password: ");
+        System.out.println("Enter a password: ");
         String userinput = input.nextLine();
         if (userinput.equals ("password")) {
             System.out.println("Correct!");
@@ -135,19 +149,9 @@ public class Main {
 
         System.out.println("\n----------------------\n");
 
-        //are you able to vote
-        System.out.println("Enter your age");
-        Scanner s1=new Scanner(System.in);
-        int age=s1.nextInt();
-        if ( age >= 18 ){
-            System.out.println( "Your age is 18+." );
-            System.out.println( "Eligible to vote" );
-        }
+        System.out.println("thx for taking the quiz see you next time!");
 
-        else {
-            System.out.println("You are not yet 18.");
-            System.out.println("not eligible to vote");
-        }
+
 
     }
     }
