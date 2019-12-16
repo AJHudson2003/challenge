@@ -84,7 +84,7 @@ public class Main {
            System.out.println("what is your favorite subject?");
            System.out.println("answer:" + subject);
        }else {
-           System.out.println("ok good bye then!");
+           System.out.println("ok, that's your chose!");
         }
 
         System.out.println("\n----------------------\n");
@@ -98,6 +98,22 @@ public class Main {
         else {
             System.out.println("oh i wish you did, thx for taking it though!");
         }
+
+        System.out.println("\n----------------------\n");
+
+        System.out.println("do you like to drive?");
+        System.out.println("your answer:");
+        String drive = sc.nextLine();
+        String car = sc.nextLine();
+        if (drive.equals("yes")) {
+            System.out.println("that's cool, glade you do ");
+            System.out.println("what kind of car do you have?");
+            System.out.println("answer:" + car);
+        }
+        else {
+            System.out.println("oh i do you should try it");
+        }
+
 
 
 
