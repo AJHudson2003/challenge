@@ -116,7 +116,7 @@ public class Main {
         System.out.println("Enter your answer: ");
         String question = input.nextLine();
         if (question.equals ("yes")) {
-            System.out.println("thanks for using my quiz!" + question);
+            System.out.println("thanks for using my quiz!");
         }
         else {
             System.out.println("oh i wish you did, thx for taking it though!");
@@ -136,13 +136,26 @@ public class Main {
         else {
             System.out.println("oh i do you should try it");
         }
-
-
-
-
         System.out.println("\n----------------------\n");
 
+        System.out.println("What area do you live in");
+            String area = sc.nextLine();
+            switch (area){
+                case "country":
+                    System.out.println("Same dude i love living out there");
+                    break;
+                case "city":
+                    System.out.println("Oh ok is it fun there " );
+                    break;
+                case "neighborhood":
+                    System.out.println("oh cool i live near one" );
+                    break;
+                case "apartment":
+                    System.out.println("I kinda don't like living in one of those" );
+                    break;
+            }
 
+        System.out.println("\n----------------------\n");
 
         System.out.println("Enter a password if you dare ");
         System.out.println("Enter a password: ");
@@ -156,7 +169,7 @@ public class Main {
 
 
         System.out.println("\n----------------------\n");
-        
+
         //grades/exam code
         System.out.println("enter your percentage grades and after you are done type end and it will end the line of code");
         int sum = 0, count = 0;
