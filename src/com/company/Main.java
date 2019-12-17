@@ -22,6 +22,8 @@ public class Main {
         //name code
 
         System.out.println(" welcome to my quiz I really hope that you wil like it and injoy the quiz that i have provided! ");
+        System.out.println("Please answer all Question in order please");
+        System.out.println("THX");
 
         System.out.println("would you like to take this quiz");
         System.out.println("Answer:");
@@ -84,6 +86,18 @@ public class Main {
 
         System.out.println("\n----------------------\n");
 
+        System.out.println("do you want to go to collage ");
+        System.out.println("Your answer");
+        String collage = sc.nextLine();
+        if(collage.equals("yes")){
+            System.out.println("that's good for you");
+        }
+        else{
+            System.out.println("Oh that's your opinion");
+        }
+
+        System.out.println("\n----------------------\n");
+
         System.out.println("answer the question do you like school:");
        System.out.println("do you like school?");
        String school = sc.nextLine();
@@ -93,7 +107,7 @@ public class Main {
            System.out.println("what is your favorite subject?");
            System.out.println("answer:" + subject);
        }else {
-           System.out.println("ok, that's your chose!");
+           System.out.println("ok, that's your opinion!");
         }
 
         System.out.println("\n----------------------\n");
@@ -129,6 +143,7 @@ public class Main {
         System.out.println("\n----------------------\n");
 
 
+
         System.out.println("Enter a password if you dare ");
         System.out.println("Enter a password: ");
         String userinput = input.nextLine();
@@ -141,6 +156,8 @@ public class Main {
 
 
         System.out.println("\n----------------------\n");
+
+        
         //grades/exam code
         System.out.println("enter your percentage grades and after you are done type end and it will end the line of code");
         int sum = 0, count = 0;
