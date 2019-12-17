@@ -156,7 +156,6 @@ public class Main {
 
 
         System.out.println("\n----------------------\n");
-
         
         //grades/exam code
         System.out.println("enter your percentage grades and after you are done type end and it will end the line of code");
