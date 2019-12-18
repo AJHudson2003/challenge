@@ -157,6 +157,43 @@ public class Main {
 
         System.out.println("\n----------------------\n");
 
+        System.out.println("what type of car brand do you like");
+        String brand = sc.nextLine();
+        switch (brand){
+            case "dodge":
+                System.out.println("Awesome i love those guys to");
+                break;
+            case "chevy":
+                System.out.println("i really don't agree with you.");
+                break;
+            case "jeep":
+                System.out.println("Cool i drive one too");
+                break;
+            case "Ford":
+                System.out.println("OH there ok in my opinion");
+                break;
+            case "Ferrari":
+                System.out.println("There a nice car brand");
+                break;
+            case "Lamborghini":
+                System.out.println("there also a good brand but not my favorite");
+                break;
+            case "porsche":
+                System.out.println("I don't rely care for them");
+                break;
+            case "bmw":
+                System.out.println("there a ok brand of car");
+                break;
+            case "bugatti":
+                System.out.println("I don't really care for them.");
+                break;
+            case "audi":
+                System.out.println("there fine in mu opinion");
+                break;
+        }
+
+        System.out.println("\n----------------------\n");
+
         System.out.println("Enter a password if you dare ");
         System.out.println("Enter a password: ");
         String userinput = input.nextLine();
